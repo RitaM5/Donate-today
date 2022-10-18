@@ -101,6 +101,17 @@ const Donate = () => {
                 </div>
             </div>
             {/* fifth section */}
+            <div>
+                <div>
+                    <h2>Get My Updates</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet cumque natus optio. Minima illo voluptate, perferendis ad at sed, doloremque mollitia ipsa dolor ipsam id ipsum ducimus. Maxime, ducimus nesciunt!</p>
+                </div>
+                <div>
+                    <input type=
+                    'email' placeholder="Email"></input>
+                    <button class ="btn btn-outline-secondary" type ="button" id="button-addon2">Button</button>
+                </div>
+            </div>
         </div>
     );
 };
