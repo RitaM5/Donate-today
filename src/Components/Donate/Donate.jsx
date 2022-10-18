@@ -42,22 +42,22 @@ const Donate = () => {
                     <h1>Our Donate Plan</h1>
                     <p className="w-50 mx-auto mt-3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nihil, quidem totam laudantium repudiandae beatae reiciendis ipsa aut ut rem possimus nostrum? Libero perspiciatis debitis sapiente nostrum similique magni inventore?</p>
                 </div>
-                <div className="row container mx-auto pt-5">
-                    <div className="col-lg-4 col-md-4 col-12">
+                <div className="row container mx-auto pt-5 gap-3 justify-content-center">
+                    <div className="col-lg-3 col-md-3 col-12">
                         <div style={{ backgroundColor: 'thistle' }} className="rounded p-4 card h-100 border-0">
                             <img className="icon" src="https://img.icons8.com/wired/64/000000/porridge.png" />
                             <h4 className="">Food for a Family</h4>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic animi ipsam provident repudiandae. Accusantium dolorum ullam laboriosam dolore earum blanditiis temporibus sint !</p>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-4 col-12">
+                    <div className="col-lg-3 col-md-3 col-12">
                         <div style={{ backgroundColor: 'seashell' }} className="rounded p-4 card h-100 border-0">
                             <img className="icon" src="https://img.icons8.com/ios/50/000000/family--v1.png" />
                             <h4>Food for a Family</h4>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic animi ipsam provident repudiandae. Accusantium dolorum ullam laboriosam dolore earum blanditiis temporibus sint obcaecati enim fuga itaque,</p>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-4 col-12">
+                    <div className="col-lg-3 col-md-3 col-12">
                         <div style={{ backgroundColor: 'rgb(201, 150, 167)' }} className="block-3 rounded p-4 card h-100 border-0">
                             <img className="icon" src="https://img.icons8.com/external-filled-line-rakhmat-setiawan/64/000000/external-education-back-to-school-filled-line-filled-line-rakhmat-setiawan-2.png" />
                             <h4>Food for a Family</h4>
@@ -101,16 +101,16 @@ const Donate = () => {
                 </div>
             </div>
             {/* fifth section */}
-            <div className="w-75 mx-auto py-5 text-center">
+            <div className="w-75 mx-auto py-4 text-center">
                 <div>
                     <h2>Get My Updates</h2>
-                    <p className="w-75 mx-auto py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet cumque natus optio. Minima illo voluptate, perferendis ad at sed, doloremque mollitia ipsa dolor ipsam id ipsum ducimus. Maxime, ducimus nesciunt!</p>
+                    <p className="w-75 mx-auto py-2 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet cumque natus optio. Minima illo voluptate, perferendis ad at sed, doloremque mollitia ipsa dolor ipsam id ipsum ducimus. Maxime, ducimus nesciunt!</p>
                 </div>
                 <div className="email p-5 rounded w-75 mx-auto">
-                <div className="input-group mx-auto w-75">
-                <input type="text" className="form-control w-75" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2"></input>
-                    <span className ="input-group-text w-auto bg-danger text-white" id="basic-addon2">Subscriber</span>
-                </div>
+                    <div class="input-group mb-3">
+                        <input type="text" className="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2"></input>
+                        <span className ="input-group-text bg-danger text-white" id="basic-addon2">Subscriber</span>
+                    </div>
                 </div>
             </div>
         </div>
