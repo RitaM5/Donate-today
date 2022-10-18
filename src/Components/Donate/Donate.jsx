@@ -67,24 +67,39 @@ const Donate = () => {
                 </div>
             </div>
             {/* third sec */}
-        <div className="w-75 mx-auto py-5">
-        <div className="row">
-                <div className="col-lg-6 col-md-6 col-12 p-3">
-                    <h2>Their lives depend on youfr donation</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium accusamus ullam qui dolorem commodi alias consectetur, sed eos nemo praesentium iure mollitia modi quas, natus recusandae laudantium iste non quam.</p>
-                    <Link className="text-white link-2 p-1 my-4 rounded">How to Contribute?</Link>
-                </div>
-                <div className="col-lg-6 col-md-6 col-12">
-                    <img
-                        className="d-block image w-100 h-100"
-                        src="../../../Public/image/pic7.jpg"
-                        alt="First slide"
-                    />
+            <div className="w-75 mx-auto py-5">
+                <div className="row">
+                    <div className="col-lg-6 col-md-6 col-12 p-3">
+                        <h2>Their lives depend on youfr donation</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium accusamus ullam qui dolorem commodi alias consectetur, sed eos nemo praesentium iure mollitia modi quas, natus recusandae laudantium iste non quam.</p>
+                        <Link className="text-white link-2 p-1 my-4 rounded">How to Contribute?</Link>
+                    </div>
+                    <div className="col-lg-6 col-md-6 col-12">
+                        <img
+                            className="d-block image w-100 h-100"
+                            src="../../../Public/image/pic7.jpg"
+                            alt="First slide"
+                        />
+                    </div>
                 </div>
             </div>
-        </div>
-        {/* forth section */}
-        
+            {/* forth section */}
+            <div className="w-75 mx-auto py-5">
+                <div className="row">
+                    <div className="col-lg-6 col-md-6 col-12">
+                        <img
+                            className="d-block image w-100 h-100"
+                            src="../../../Public/image/pic7.jpg"
+                            alt="First slide"
+                        />
+                    </div>
+                    <div className="col-lg-6 col-md-6 col-12 p-3">
+                        <h2>Their lives depend on youfr donation</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium accusamus ullam qui dolorem commodi alias consectetur, sed eos nemo praesentium iure mollitia modi quas, natus recusandae laudantium iste non quam.</p>
+                        <Link className="text-white link-2 p-1 my-4 rounded">How to Contribute?</Link>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
