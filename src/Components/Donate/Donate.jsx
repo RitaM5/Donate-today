@@ -96,7 +96,7 @@ const Donate = () => {
                     <div className="col-lg-6 col-md-6 col-12 p-3">
                         <h2>Their lives depend on youfr donation</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium accusamus ullam qui dolorem commodi alias consectetur, sed eos nemo praesentium iure mollitia modi quas, natus recusandae laudantium iste non quam.</p>
-                        <Link className="text-white link-2 p-1 my-4 rounded">How to Contribute?</Link>
+                        <Link className="text-white link-2 p-1 my-4 rounded">How to Contribute</Link>
                     </div>
                 </div>
             </div>
