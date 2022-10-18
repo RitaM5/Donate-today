@@ -1,0 +1,8 @@
+.image{
+    height: 500px;
+}
+.link{
+    background-color: tomato;
+    text-decoration: none;
+    display: inline-block;
+}
