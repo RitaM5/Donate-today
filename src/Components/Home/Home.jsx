@@ -2,6 +2,7 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import { Link } from 'react-router-dom';
 import Donate from '../Donate/Donate';
+import Footer from '../Footer/Footer';
 import './Home.css'
 const Home = () => {
     return (
@@ -51,6 +52,7 @@ const Home = () => {
                 </Carousel.Item>
             </Carousel>
             <Donate></Donate>
+            <Footer></Footer>
         </div>
     );
 };
