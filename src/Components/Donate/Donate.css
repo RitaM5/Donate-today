@@ -32,3 +32,24 @@ background-color: rgb(245, 194, 185);
 .email{
     background-color: rgb(238, 187, 178);
 }
+ @media screen and (max-width:768px){
+     .single-div{
+         display: flex;
+         flex-direction: column;
+         width: 150px;
+         margin: 0 auto;
+      
+     }
+     
+ }
+ @media  screen and (max-width:576px) {
+     .icon{
+         margin:0 auto;
+     }
+     .headings{
+        margin:0 auto;
+     }
+     .para{
+         text-align: center;
+     }
+ }

@@ -46,22 +46,22 @@ const Donate = () => {
                     <div className="col-lg-3 col-md-3 col-12">
                         <div style={{ backgroundColor: 'thistle' }} className="rounded p-4 card h-100 border-0">
                             <img className="icon" src="https://img.icons8.com/wired/64/000000/porridge.png" />
-                            <h4 className="">Food for a Family</h4>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic animi ipsam provident repudiandae. Accusantium dolorum ullam laboriosam dolore earum blanditiis temporibus sint !</p>
+                            <h4 className="headings py-2">Food for a Family</h4>
+                            <p className="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic animi ipsam provident repudiandae. Accusantium dolorum ullam laboriosam dolore earum blanditiis temporibus sint !</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-3 col-12">
                         <div style={{ backgroundColor: 'seashell' }} className="rounded p-4 card h-100 border-0">
                             <img className="icon" src="https://img.icons8.com/ios/50/000000/family--v1.png" />
-                            <h4>Food for a Family</h4>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic animi ipsam provident repudiandae. Accusantium dolorum ullam laboriosam dolore earum blanditiis temporibus sint obcaecati enim fuga itaque,</p>
+                            <h4 className="headings py-2">Shelter for a Family</h4>
+                            <p className="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic animi ipsam provident repudiandae. Accusantium dolorum ullam laboriosam dolore earum blanditiis temporibus sint obcaecati enim fuga itaque,</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-3 col-12">
                         <div style={{ backgroundColor: 'rgb(201, 150, 167)' }} className="block-3 rounded p-4 card h-100 border-0">
                             <img className="icon" src="https://img.icons8.com/external-filled-line-rakhmat-setiawan/64/000000/external-education-back-to-school-filled-line-filled-line-rakhmat-setiawan-2.png" />
-                            <h4>Food for a Family</h4>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic animi ipsam provident repudiandae. Accusantium dolorum ullam laboriosam dolore earum blanditiis temporibus sint</p>
+                            <h4 className="headings py-2">Education for a Child</h4>
+                            <p className="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic animi ipsam provident repudiandae. Accusantium dolorum ullam laboriosam dolore earum blanditiis temporibus sint</p>
                         </div>
                     </div>
                 </div>
@@ -69,8 +69,8 @@ const Donate = () => {
             {/* third sec */}
             <div className="w-75 mx-auto py-5">
                 <div className="row">
-                    <div className="col-lg-6 col-md-6 col-12 p-3">
-                        <h2>Their lives depend on youfr donation</h2>
+                    <div className="col-lg-6 col-md-6 col-12 p-5">
+                        <h2>Their lives depend on your donation</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium accusamus ullam qui dolorem commodi alias consectetur, sed eos nemo praesentium iure mollitia modi quas, natus recusandae laudantium iste non quam.</p>
                         <Link className="text-white link-2 p-1 my-4 rounded">How to Contribute ?</Link>
                     </div>
@@ -93,8 +93,8 @@ const Donate = () => {
                             alt="First slide"
                         />
                     </div>
-                    <div className="col-lg-6 col-md-6 col-12 p-3">
-                        <h2>Their lives depend on your donation</h2>
+                    <div className="col-lg-6 col-md-6 col-12 p-5">
+                        <h2>They need us to survive</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium accusamus ullam qui dolorem commodi alias consectetur, sed eos nemo praesentium iure mollitia modi quas, natus recusandae laudantium iste non quam.</p>
                         <Link className="text-white link-2 p-1 my-4 rounded">How to Contribute ?</Link>
                     </div>
