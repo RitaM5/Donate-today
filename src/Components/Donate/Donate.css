@@ -1,6 +1,9 @@
 .block{
     background-color: whitesmoke;
 }
+.mark-block:hover{
+    background-color: rgb(245, 194, 185);
+}
 .mark-block:active{
 border: 2px solid red;
 color: red;
