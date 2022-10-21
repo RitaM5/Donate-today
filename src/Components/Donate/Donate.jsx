@@ -106,10 +106,10 @@ const Donate = () => {
                     <h2 className="fw-bold">Get My Updates</h2>
                     <p className="w-75 mx-auto py-2 text-center">Never miss an update and stay informed so you can take action immediately.</p>
                 </div>
-                <div className="email p-5 rounded w-75 mx-auto">
-                    <div class="input-group mb-3">
-                        <input type="text" className="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2"></input>
-                        <span className ="input-group-text bg-danger text-white" id="basic-addon2">Subscriber</span>
+                <div className="email p-5 rounded mx-auto">
+                    <div class="input-group w-50 mb-3 mx-auto">
+                        <input type="text" className="form-control w-50" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2"></input>
+                        <span className="input-group-text bg-danger text-white" id="basic-addon2">Subscriber</span>
                     </div>
                 </div>
             </div>
