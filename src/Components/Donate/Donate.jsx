@@ -77,7 +77,7 @@ const Donate = () => {
                     <div className="col-lg-6 col-md-6 col-12">
                         <img
                             className="d-block image w-100 h-100"
-                            src="../../../Public/image/pic7.jpg"
+                            src="/image/pic7.jpg"
                             alt="First slide"
                         />
                     </div>
@@ -89,7 +89,7 @@ const Donate = () => {
                     <div className="col-lg-6 col-md-6 col-12">
                         <img
                             className="d-block image w-100 h-100"
-                            src="../../../Public/image/pic10.jpg"
+                            src="/image/pic10.jpg"
                             alt="First slide"
                         />
                     </div>
