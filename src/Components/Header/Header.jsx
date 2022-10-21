@@ -7,7 +7,7 @@ const Header = () => {
         <div className="menu">
             <Nav className="link-tag p-3 fw-bold ">
                 <div className="d-flex justify-content-center gap-4">
-                    <Link to="/home">HOME</Link>
+                    <Link to="/">HOME</Link>
                     <Link to="/review">REVIEW</Link>
                     <Link to="/blogs">BLOGS</Link>
                     <Link to="/about">ABOUT</Link>
