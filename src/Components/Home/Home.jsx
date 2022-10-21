@@ -17,7 +17,7 @@ const Home = () => {
                     <Carousel.Caption >
                         <div className="slide-sec">
                             <h1 className="slide-heading">Let ’s Help Those Who Are More In Need</h1>
-                            <p className="fs-3">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <p className="fs-3 text-center">Floods can potentially increase the transmission of water- and vector-borne diseases</p>
                             <Link className=" text-white link p-1 mt-2 rounded ">Donate Now</Link>
                         </div>
                     </Carousel.Caption>
@@ -31,7 +31,7 @@ const Home = () => {
 
                     <Carousel.Caption className="slide-sec">
                         <h1 className="slide-heading">Let ’s Help Those Who Are More In Need</h1>
-                        <p className="fs-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p className="fs-3 text-center">Floods can potentially increase the transmission of water- and vector-borne diseases</p>
                         <Link className="text-white link p-1 mt-2 rounded">Donate Now</Link>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -44,8 +44,8 @@ const Home = () => {
 
                     <Carousel.Caption className="slide-sec">
                         <h1 className="slide-heading">Let ’s Help Those Who Are More In Need</h1>
-                        <p className="fs-3">
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                        <p className="fs-3 text-center">
+                        Floods can potentially increase the transmission of water- and vector-borne diseases
                         </p>
                         <Link className="text-white link p-1 mt-2 rounded">Donate Now</Link>
                     </Carousel.Caption>

@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div className="bg-dark footer text-center p-4">
             <h2 className="text-center text-danger footer-h">Be Humble</h2>
-            <p className="text-white text-center">Instagram</p>
+            <p className="text-white text-center">I am gonna do it</p>
         </div>
     );
 };

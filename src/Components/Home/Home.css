@@ -1,5 +1,6 @@
 .image{
     height: 500px;
+    background-blend-mode: overlay;
 }
 .link{
     background-color: tomato;
